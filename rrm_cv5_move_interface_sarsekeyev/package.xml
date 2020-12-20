@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rrm_cv5_move_interface_sarsekeyev</name>
+  <version>0.1.0</version>
+  <description>The rrm_cv5_move_interface_sarsekeyev package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="alishshow581@gmail.com">Alisher</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>interactive_markers</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf</depend>
+  <depend>tf2_eigen</depend>
+  <depend>pcl_conversions</depend>
+  <depend>roscpp</depend>
+  <depend>moveit_visual_tools</depend>
+  <depend>pcl_ros</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>moveit_core</depend>
+  <depend>moveit_ros_perception</depend>
+  <depend>std_msgs</depend>
+  <depend>rosbag</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <build_depend>geometric_shapes</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <build_export_depend>moveit_fake_controller_manager</build_export_depend>
+  <build_export_depend>panda_moveit_config</build_export_depend>
+  <build_export_depend>joy</build_export_depend>
+  <build_export_depend>moveit_commander</build_export_depend>
+  <exec_depend>moveit_fake_controller_manager</exec_depend>
+  <exec_depend>panda_moveit_config</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>moveit_commander</exec_depend>
+
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

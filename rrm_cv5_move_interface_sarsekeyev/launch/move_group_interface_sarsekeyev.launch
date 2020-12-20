@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="move_interface_sarsekeyev" pkg="rrm_cv5_move_interface_sarsekeyev" type="move_interface_sarsekeyev" respawn="false" output="screen">
+  </node>
+
+</launch>

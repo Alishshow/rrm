@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find abb_camera_simulation)/launch/abb_gazebo.launch" />
+    <include file="$(find abb_cv7_moveit)/launch/demo.launch" />
+</launch>

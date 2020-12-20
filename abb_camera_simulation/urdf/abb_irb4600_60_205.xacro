@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<robot name="abb_irb" xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:include filename="$(find abb_camera_simulation)/urdf/abb_irb4600_60_205.gazebo" />
+
+	<xacro:include filename="$(find abb_camera_simulation)/urdf/abb_irb4600_60_205_macro.xacro" />
+	<xacro:abb_irb4600_60_205 prefix=""/>
+</robot>

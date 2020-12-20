@@ -1,0 +1,6 @@
+<launch>
+
+    <node name="scanner" pkg="abb_scanner" type="scanner" respawn="false" output="screen">
+    </node>
+
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find abb_camera_simulation)/launch/camera_sim.launch" />
+    <include file="$(find abb_scanner)/launch/abb_scanner.launch" />
+    <include file="$(find rrm_cv5_move_interface_sarsekeyev)/launch/move_group_interface_sarsekeyev.launch" />
+</launch>
